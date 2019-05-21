@@ -1,11 +1,11 @@
-package com.shuli.perfmock;
+package com.zyx.perfmock;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-import com.shuli.perfmock.model.Latency;
-import com.shuli.perfmock.model.MockItem;
-import com.shuli.perfmock.service.LatencyService;
-import com.shuli.perfmock.service.MockService;
+import com.zyx.perfmock.model.Latency;
+import com.zyx.perfmock.model.MockItem;
+import com.zyx.perfmock.service.LatencyService;
+import com.zyx.perfmock.service.MockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -16,6 +16,9 @@ import org.springframework.util.FileCopyUtils;
 import java.io.File;
 import java.io.FileReader;
 
+/**
+ * @Author:zyx
+ */
 @SpringBootApplication
 public class PerfmockApplication {
     @Autowired

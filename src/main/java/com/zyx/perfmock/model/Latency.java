@@ -1,10 +1,9 @@
-package com.shuli.perfmock.model;
+package com.zyx.perfmock.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 /**
- * @Author:songhongli
- * @Created: 2018/6/11
+ * @Author:zyx
  */
 @Data
 @AllArgsConstructor

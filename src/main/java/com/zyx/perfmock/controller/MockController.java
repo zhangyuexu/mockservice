@@ -1,9 +1,9 @@
-package com.shuli.perfmock.controller;
+package com.zyx.perfmock.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.shuli.perfmock.model.MockItem;
-import com.shuli.perfmock.service.LatencyService;
-import com.shuli.perfmock.service.MockService;
+import com.zyx.perfmock.model.MockItem;
+import com.zyx.perfmock.service.LatencyService;
+import com.zyx.perfmock.service.MockService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author:songhongli
- * @Created: 2018/6/14
+ * @Author:zyx
  */
 @RestController
 public class MockController {
@@ -41,6 +40,7 @@ public class MockController {
     @RequestMapping("/**/*")
     public Object mock(HttpServletRequest req) {
         String rest = (String) req.getAttribute(HandlerMapping.PATH_WITHIN_HANDLER_MAPPING_ATTRIBUTE);
+        System.out.println("==================="+rest);
         Map<String, String> params = new HashMap<>();
 
         Enumeration<String> parameterNames = req.getParameterNames();

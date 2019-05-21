@@ -1,4 +1,4 @@
-package com.shuli.perfmock.model;
+package com.zyx.perfmock.model;
 
 import com.alibaba.fastjson.JSONObject;
 import lombok.Data;
@@ -7,8 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author:songhongli
- * @Created: 2018/6/11
+ * @Author:zyx
  */
 @Data
 public class MockItem {

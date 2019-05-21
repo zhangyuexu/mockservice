@@ -1,15 +1,12 @@
-package com.shuli.perfmock.service;
+package com.zyx.perfmock.service;
 
-import com.shuli.perfmock.model.Latency;
+import com.zyx.perfmock.model.Latency;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Random;
 
 /**
- * @Author:songhongli
- * @Created: 2018/6/11
+ * @Author:zyx
  */
 @Service
 public class LatencyService {

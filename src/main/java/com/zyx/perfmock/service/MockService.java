@@ -1,7 +1,6 @@
-package com.shuli.perfmock.service;
+package com.zyx.perfmock.service;
 
-import com.shuli.perfmock.model.Latency;
-import com.shuli.perfmock.model.MockItem;
+import com.zyx.perfmock.model.MockItem;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -10,8 +9,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @Author:songhongli
- * @Created: 2018/6/11
+ * @Author:zyx
  */
 @Service
 public class MockService {
